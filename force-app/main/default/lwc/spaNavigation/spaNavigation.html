@@ -1,0 +1,12 @@
+<template>
+    <div class="navigation" if:true={menuItems}>
+        <lightning-vertical-navigation selected-item={currentPageId}>
+            <lightning-vertical-navigation-section label="Main Menu" selected-item={currentPageId}>
+                <template for:each={menuItems} for:item="menuItem">
+                    <lightning-vertical-navigation-item-icon key={menuItem.pageId} label={menuItem.label} data-page={menuItem.pageId} name={menuItem.pageId} onclick={navigate}>
+                    </lightning-vertical-navigation-item-icon>
+                </template>
+            </lightning-vertical-navigation-section>
+        </lightning-vertical-navigation>
+    </div>
+</template>

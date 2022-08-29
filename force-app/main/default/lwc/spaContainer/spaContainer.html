@@ -1,0 +1,9 @@
+<template>
+    <h1 class="title">Single Page Application</h1>
+
+    <div class="container" if:true={isLoaded}>
+        <c-spa-navigation class="navigation" current-page-id={currentPageId} menu-items={menuItems} current-page-reference={currentPageReference}></c-spa-navigation>
+        <c-spa-pages class="content" current-page-id={currentPageId}></c-spa-pages>
+        <c-spa-footer class="footer"></c-spa-footer>
+    </div>
+</template>

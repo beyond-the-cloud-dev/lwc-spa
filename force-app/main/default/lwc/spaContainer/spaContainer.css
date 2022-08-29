@@ -1,0 +1,29 @@
+.title {
+    font-size: 32px;
+    margin: 50px auto 20px auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.navigation {
+    grid-column: 1 / 2;
+}
+
+.content {
+    grid-column: 2 / 3;
+    padding: 0 20px;
+    background-color: #F9FBFF;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    grid-column: 1 / 3;
+}
