@@ -1,6 +1,6 @@
 # LWC Single Page Application
 
-More details [here].(https://beyondthecloud.dev/blog/salesforce-spa-using-lwc)
+More details [here](https://beyondthecloud.dev/blog/salesforce-spa-using-lwc).
 
 ## Demo
 
